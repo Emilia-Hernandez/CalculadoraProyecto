@@ -1,4 +1,4 @@
-# CalculadoraProyecto
+# Proyecto Calculadora
 
 Equipo:
 - Emilia Hernandez
