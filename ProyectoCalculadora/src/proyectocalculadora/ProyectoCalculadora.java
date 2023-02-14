@@ -62,7 +62,7 @@ public class ProyectoCalculadora {
         boolean resp = true;
         int i=0; //esta mal
         while(resp && i<dato.length()){
-            if(dato.charAt(i)=='0'|| dato.charAt(i)=='1' || dato.charAt(i)=='2' || dato.charAt(i)=='3' || dato.charAt(i)=='4' || dato.charAt(i)=='5' || dato.charAt(i)=='6' || dato.charAt(i)=='7' || dato.charAt(i)=='8' || dato.charAt(i)=='9' || dato.charAt(i)=='.'){
+            if(dato.charAt(i)=='0'|| dato.charAt(i)=='1' || dato.charAt(i)=='2' || dato.charAt(i)=='3' || dato.charAt(i)=='4' || dato.charAt(i)=='5' || dato.charAt(i)=='6' || dato.charAt(i)=='7' || dato.charAt(i)=='8' || dato.charAt(i)=='9' || dato.charAt(i)=='.' || dato.charAt(i)=='~'){
                 pila.push(dato.charAt(i));
             }else{
                 if(dato.charAt(i)=='+' ||dato.charAt(i)=='-'||dato.charAt(i)=='/'||dato.charAt(i)=='*'||dato.charAt(i)=='^'){
